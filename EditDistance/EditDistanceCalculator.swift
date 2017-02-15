@@ -106,6 +106,7 @@ class EditDistanceCalculator<T: Comparable> {
         }
         
         self.recordSeq(epc: epc)
+        print(ses)
         return self.ses
     }
     
