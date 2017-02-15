@@ -14,6 +14,10 @@
 		2B8861FA1E53F49500171734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8861F81E53F49500171734 /* LaunchScreen.storyboard */; };
 		2B8862051E53F49500171734 /* EditDistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8862041E53F49500171734 /* EditDistanceTests.swift */; };
 		2B8862101E53F49500171734 /* EditDistanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B88620F1E53F49500171734 /* EditDistanceUITests.swift */; };
+		2B88621F1E53F4A100171734 /* EditDistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B88621D1E53F4A100171734 /* EditDistanceCalculator.swift */; };
+		2B8862201E53F4A100171734 /* EditDistanceConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B88621E1E53F4A100171734 /* EditDistanceConverter.swift */; };
+		2B8862231E53F4A800171734 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8862211E53F4A800171734 /* TableViewController.swift */; };
+		2B8862241E53F4A800171734 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8862221E53F4A800171734 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		2B88620B1E53F49500171734 /* EditDistanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EditDistanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B88620F1E53F49500171734 /* EditDistanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDistanceUITests.swift; sourceTree = "<group>"; };
 		2B8862111E53F49500171734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B88621D1E53F4A100171734 /* EditDistanceCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDistanceCalculator.swift; sourceTree = "<group>"; };
+		2B88621E1E53F4A100171734 /* EditDistanceConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDistanceConverter.swift; sourceTree = "<group>"; };
+		2B8862211E53F4A800171734 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2B8862221E53F4A800171734 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 			children = (
 				2B8861EF1E53F49500171734 /* AppDelegate.swift */,
 				2B8861F11E53F49500171734 /* ViewController.swift */,
+				2B88621D1E53F4A100171734 /* EditDistanceCalculator.swift */,
+				2B88621E1E53F4A100171734 /* EditDistanceConverter.swift */,
+				2B8862211E53F4A800171734 /* TableViewController.swift */,
+				2B8862221E53F4A800171734 /* CollectionViewController.swift */,
 				2B8861F31E53F49500171734 /* Main.storyboard */,
 				2B8861F61E53F49500171734 /* Assets.xcassets */,
 				2B8861F81E53F49500171734 /* LaunchScreen.storyboard */,
@@ -262,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8862241E53F4A800171734 /* CollectionViewController.swift in Sources */,
 				2B8861F21E53F49500171734 /* ViewController.swift in Sources */,
+				2B88621F1E53F4A100171734 /* EditDistanceCalculator.swift in Sources */,
 				2B8861F01E53F49500171734 /* AppDelegate.swift in Sources */,
+				2B8862231E53F4A800171734 /* TableViewController.swift in Sources */,
+				2B8862201E53F4A100171734 /* EditDistanceConverter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
