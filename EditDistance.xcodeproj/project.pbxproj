@@ -205,19 +205,16 @@
 				TargetAttributes = {
 					2B8861EB1E53F49500171734 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = R33Y42SDDR;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2B8861FF1E53F49500171734 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = R33Y42SDDR;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 2B8861EB1E53F49500171734;
 					};
 					2B88620A1E53F49500171734 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = R33Y42SDDR;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 2B8861EB1E53F49500171734;
 					};
 				};
@@ -431,7 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R33Y42SDDR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EditDistance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kazuhiro.hayashi.EditDistance;
@@ -444,7 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R33Y42SDDR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EditDistance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kazuhiro.hayashi.EditDistance;
@@ -458,7 +455,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = R33Y42SDDR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EditDistanceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kazuhiro.hayashi.EditDistanceTests;
@@ -473,7 +470,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = R33Y42SDDR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EditDistanceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kazuhiro.hayashi.EditDistanceTests;
@@ -487,7 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = R33Y42SDDR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EditDistanceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kazuhiro.hayashi.EditDistanceUITests;
@@ -501,7 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = R33Y42SDDR;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = EditDistanceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kazuhiro.hayashi.EditDistanceUITests;
